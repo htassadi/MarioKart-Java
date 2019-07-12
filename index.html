@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Page Title</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="main">
+
+      <h1>MARIO KART ITEM BOX </h1>
+      <!--  Instructions -->
+      <p> Please choose a valid race postion:  #<input id="input" type="number" min="1" max="12" > </p>
+      <p>Click the picture to simulate opening a mystery item box.</p>
+     
+  
+      <!-- Image & Results  -->
+      <center><img id="mainImg" src="images/mystery_box.jpg" style= "width: 500px; height: 400px;"></center>
+
+      <p>
+        <strong>TOTALS :  </strong>
+        <b>Banana :</b>          <span id="banana"> 0 </span> 
+        <b>Green Shell :</b>     <span id="shell"> 0 </span> 
+        <b>Golden Star  :</b>     <span id="star"> 0 </span> 
+        <b>Golden Mushroom :</b> <span id="mushroom"> 0 </span> 
+        <b>Bullet Bill :</b>     <span id="bullet"> 0 </span> 
+      </p>
+
+      <hr>
+
+      <p id="results"></p>
+    </div>
+
+     <!--  LOAD JAVASCRIPT -->
+        <script src="main.js"></script>
+
+    </body>
+
+</html>
